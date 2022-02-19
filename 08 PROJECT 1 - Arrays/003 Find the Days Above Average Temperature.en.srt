@@ -1,0 +1,403 @@
+1
+00:00:00,150 --> 00:00:06,030
+Nine days later, we are going to implement a radiator structure in our program to calculate the number
+
+2
+00:00:06,030 --> 00:00:08,750
+of days that are above the average temperature.
+
+3
+00:00:08,880 --> 00:00:13,040
+So I'm going to change this code to use our data structure in this court.
+
+4
+00:00:13,260 --> 00:00:19,050
+So as we said before, without using our data structure, we cannot calculate the number of days above
+
+5
+00:00:19,050 --> 00:00:19,980
+the average temperature.
+
+6
+00:00:20,010 --> 00:00:22,400
+So that's why we are going to use our data structure.
+
+7
+00:00:22,410 --> 00:00:28,590
+So it is you will understand how a rate data structure is very useful in cases like this.
+
+8
+00:00:28,740 --> 00:00:33,270
+Now, as we said before, the first thing that we are going to do, we are getting the input from the
+
+9
+00:00:33,270 --> 00:00:33,680
+user.
+
+10
+00:00:33,690 --> 00:00:36,020
+So here we are going to use Kanakas.
+
+11
+00:00:36,160 --> 00:00:38,550
+So I'm not going to touch this part of code over here.
+
+12
+00:00:38,820 --> 00:00:44,670
+Then in the next line of code, we are printing out to the council and asking the number of days from
+
+13
+00:00:44,670 --> 00:00:45,130
+the user.
+
+14
+00:00:45,150 --> 00:00:48,400
+So this will remain same and this part also will remain same.
+
+15
+00:00:48,420 --> 00:00:52,200
+We are getting the number of days and save it to the days variable.
+
+16
+00:00:52,470 --> 00:00:59,850
+Now here after this one, I'm going to create a new array over here which will store each day's temperature.
+
+17
+00:01:00,150 --> 00:01:03,210
+So here the array type will be integer.
+
+18
+00:01:03,230 --> 00:01:09,200
+So I'm going to declare it like this and then there will be temps which would restore the temperatures.
+
+19
+00:01:09,570 --> 00:01:11,590
+Then it's going to be initialized like this.
+
+20
+00:01:12,000 --> 00:01:16,090
+Now, you might be interested how many cells will be in this area.
+
+21
+00:01:16,110 --> 00:01:22,800
+So it's going to be a number of days because we will have only this number of temperatures in our area.
+
+22
+00:01:22,920 --> 00:01:26,320
+That's why we have initialise early with this sizable number of days.
+
+23
+00:01:26,520 --> 00:01:32,820
+So after initializing this temporary over here, we are going to record the temperatures for each day
+
+24
+00:01:32,940 --> 00:01:35,310
+and save them in this area over here.
+
+25
+00:01:35,490 --> 00:01:39,830
+And then when we are seeing them parallel, we are going to find the average temperature.
+
+26
+00:01:40,140 --> 00:01:46,090
+So here I'm going to comment something like this, record temperature and find the average.
+
+27
+00:01:46,650 --> 00:01:51,480
+So by collecting this, you will know that this section is blown to recording the temperatures and finding
+
+28
+00:01:51,480 --> 00:01:51,850
+the average.
+
+29
+00:01:52,170 --> 00:01:58,800
+So here I am not going to touch this variable over here because we are saving the some of the temperatures
+
+30
+00:01:58,800 --> 00:01:59,600
+in this variable.
+
+31
+00:01:59,820 --> 00:02:05,270
+So inside the loop, we are going to ask from a user to enter the each day's temperature.
+
+32
+00:02:05,490 --> 00:02:11,220
+So while entering it this time, I'm not going to save it in this next variable over here.
+
+33
+00:02:11,220 --> 00:02:14,340
+I'm going to save them in the temps over here.
+
+34
+00:02:14,370 --> 00:02:16,080
+So here is going to be like this.
+
+35
+00:02:16,530 --> 00:02:21,270
+We are going to put like this then based on this, we are going to calculate the sum of temperature.
+
+36
+00:02:21,270 --> 00:02:25,560
+So each time a user enters the data, it saves in this temperature area over here.
+
+37
+00:02:25,970 --> 00:02:30,200
+Interesting moment over here that we know that array index starts from zero.
+
+38
+00:02:30,210 --> 00:02:32,250
+But here we put it starts from day one.
+
+39
+00:02:32,290 --> 00:02:38,460
+So this means that we need to change the loop to start from the zero and it continues until the number
+
+40
+00:02:38,460 --> 00:02:38,900
+of days.
+
+41
+00:02:38,940 --> 00:02:42,500
+So the number of days will not be included over here because we are starting from zero.
+
+42
+00:02:42,930 --> 00:02:49,500
+But if you do so and printing out to the council is going to ask from a user, they rose High-temperature
+
+43
+00:02:49,500 --> 00:02:49,870
+first.
+
+44
+00:02:49,890 --> 00:02:54,990
+So to prevent this misunderstanding, I'm going to put over here I plus one.
+
+45
+00:02:55,020 --> 00:02:57,950
+So in this case, it's going to be a plus one.
+
+46
+00:02:57,960 --> 00:03:01,150
+So it will be inside passes for that.
+
+47
+00:03:01,170 --> 00:03:02,540
+This is different from everything.
+
+48
+00:03:02,760 --> 00:03:09,480
+So from user, it will ask the wants temperature, but in the array it will store these days once temperature
+
+49
+00:03:09,480 --> 00:03:10,690
+at the index of zero.
+
+50
+00:03:10,920 --> 00:03:13,780
+Then you calculate the sum of these temperatures over here.
+
+51
+00:03:14,040 --> 00:03:16,710
+So with this, we are calculating the sum of temperatures.
+
+52
+00:03:16,740 --> 00:03:22,440
+Then inside this average variable, we are going to calculate the average temperature for everything
+
+53
+00:03:22,440 --> 00:03:23,610
+over here remains same.
+
+54
+00:03:24,000 --> 00:03:29,700
+So after finding the average temperature, we need to find out the number of days that are above the
+
+55
+00:03:29,940 --> 00:03:30,910
+average temperature.
+
+56
+00:03:31,140 --> 00:03:34,710
+So that's where I'm going to comment over here, can't they?
+
+57
+00:03:35,050 --> 00:03:36,120
+Above average.
+
+58
+00:03:36,270 --> 00:03:37,390
+Now, how can we do that?
+
+59
+00:03:37,650 --> 00:03:41,960
+Now, you've said that we are saving all temperatures in this area over here.
+
+60
+00:03:42,150 --> 00:03:47,430
+So if you are saving all temperatures in this area, we can look through this area and finding out the
+
+61
+00:03:47,430 --> 00:03:52,440
+number of days that are above the average because we have already calculate the average and we have
+
+62
+00:03:52,440 --> 00:03:55,620
+the all this temperature inside this temperature area.
+
+63
+00:03:55,830 --> 00:04:01,050
+So this means that by looking through this area, we can compare that if the temperature is above the
+
+64
+00:04:01,050 --> 00:04:06,930
+average or so for this first I'm going to create a variable above and initially it will set to zero
+
+65
+00:04:06,930 --> 00:04:11,350
+because we know it's zero number of days are greater than the average temperature.
+
+66
+00:04:11,370 --> 00:04:13,810
+So then we look through this area over here.
+
+67
+00:04:14,100 --> 00:04:21,720
+So I'm going to write a book like this and I will start from zero because starts from the index of zero
+
+68
+00:04:21,930 --> 00:04:28,460
+and it will continue onto the length of arrays for the length of a range of will be calculated by using.
+
+69
+00:04:29,370 --> 00:04:31,290
+And each time it will increase by one.
+
+70
+00:04:31,890 --> 00:04:39,300
+So inside this loop, I'm going to write if conditions like this, if temps I is greater than average,
+
+71
+00:04:39,630 --> 00:04:43,470
+then in this case I'm going to increase this above variable by one.
+
+72
+00:04:44,250 --> 00:04:50,940
+So it's going to increase by one and it will continue until we have checked all these temperatures over
+
+73
+00:04:50,940 --> 00:04:51,230
+here.
+
+74
+00:04:51,450 --> 00:04:56,970
+Then at the end, I'm going to print out the average temperature, then the number of days that are
+
+75
+00:04:56,970 --> 00:04:58,700
+greater than the average temperature.
+
+76
+00:04:58,710 --> 00:04:59,700
+So I'm going to copy.
+
+77
+00:05:00,370 --> 00:05:04,200
+Print statement and put it over here, and I'm going to change it like this.
+
+78
+00:05:04,450 --> 00:05:08,710
+They average every so here I am going to put a ball.
+
+79
+00:05:09,490 --> 00:05:12,160
+So with this, we have completed our project.
+
+80
+00:05:12,310 --> 00:05:17,110
+So basically what we are doing over here is we are taking the number of days from the user.
+
+81
+00:05:17,260 --> 00:05:23,800
+And based on this variable nowadays over here, they are asking the user if these temperatures so while
+
+82
+00:05:23,800 --> 00:05:26,140
+a user enters the temperature, they are saving them.
+
+83
+00:05:26,140 --> 00:05:27,250
+This array over here.
+
+84
+00:05:27,440 --> 00:05:31,210
+Then based on this one, we are calculating the sum of these temperatures.
+
+85
+00:05:31,210 --> 00:05:36,450
+And then based on this one, we are calculating the average temperature using number of days.
+
+86
+00:05:36,730 --> 00:05:42,400
+Then after calculating the average temperature one more time via looping through the array and finding
+
+87
+00:05:42,400 --> 00:05:45,770
+out how many days temperature is above the average temperature.
+
+88
+00:05:46,000 --> 00:05:51,280
+So as we said before, without using our data structure, we cannot calculate the number of days that
+
+89
+00:05:51,280 --> 00:05:56,650
+are above the average temperature because we need to save this data in any data structure.
+
+90
+00:05:56,830 --> 00:05:59,220
+So in this case, we are saving it in the array.
+
+91
+00:05:59,710 --> 00:06:04,960
+Now, if we run our code, you will see that first it asks number of days temperature.
+
+92
+00:06:05,020 --> 00:06:11,200
+So here I'm going to put three, then I'm going to insert five for the first day's high temperature
+
+93
+00:06:11,410 --> 00:06:13,120
+for the second day, high temperature.
+
+94
+00:06:13,120 --> 00:06:15,970
+I'm going to insert 20 for the 30 days.
+
+95
+00:06:15,970 --> 00:06:18,220
+High temperature, I'm going to insert twenty five.
+
+96
+00:06:18,250 --> 00:06:24,220
+So if I heat enter, you see that two days temperature is above the average and the average temperature
+
+97
+00:06:24,220 --> 00:06:24,940
+is 16.
+
+98
+00:06:25,240 --> 00:06:30,640
+So they twos and threes temperatures are above the average temperature.
+
+99
+00:06:30,970 --> 00:06:33,340
+So with this, we have come to the end of this letter.
+
+100
+00:06:33,360 --> 00:06:39,980
+So hopefully everything is clear about how can we implement our data structure in real life project.
+
+101
+00:06:40,540 --> 00:06:41,980
+So see you in the next lecture.

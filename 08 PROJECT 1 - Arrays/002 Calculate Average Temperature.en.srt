@@ -1,0 +1,435 @@
+1
+00:00:00,300 --> 00:00:04,000
+So as I mentioned before, our project is consists of two parts.
+
+2
+00:00:04,030 --> 00:00:09,240
+So first, we need to find the average temperature, then we need to find out how many days is above
+
+3
+00:00:09,240 --> 00:00:10,540
+the average temperature.
+
+4
+00:00:10,860 --> 00:00:15,760
+Now, in this case, we can find the average temperature without using a radiator structure.
+
+5
+00:00:15,990 --> 00:00:19,790
+So let's see, how can we implement it without using a radiator structure?
+
+6
+00:00:19,950 --> 00:00:26,130
+Then we will find out how our data structure makes things possible that we're not impossible before.
+
+7
+00:00:26,310 --> 00:00:31,710
+So in this case, as I said before, the first thing that I am going to do, I need to get input from
+
+8
+00:00:31,710 --> 00:00:32,230
+a user.
+
+9
+00:00:32,490 --> 00:00:36,020
+So in Java, to get input from user, we can use this scanner.
+
+10
+00:00:36,580 --> 00:00:41,760
+So by using scanner class, we can get the values from the console and use it in our program.
+
+11
+00:00:42,090 --> 00:00:46,470
+So in this case, what I'm going to do, the first thing that I'm going to do, I'm going to create
+
+12
+00:00:46,470 --> 00:00:48,200
+an instance of this kind of class.
+
+13
+00:00:48,360 --> 00:00:55,170
+So to use, Carol, because you need to then inside this main method, I'm going to implement our project.
+
+14
+00:00:55,410 --> 00:01:00,770
+So the first thing that I'm going to do, I'm going to initialize scanner class console.
+
+15
+00:01:00,990 --> 00:01:01,830
+So I will name it.
+
+16
+00:01:01,830 --> 00:01:04,890
+Console is equal to a new scanner.
+
+17
+00:01:05,190 --> 00:01:07,530
+So inside this one is going to be system.
+
+18
+00:01:08,190 --> 00:01:09,430
+So it is line of code.
+
+19
+00:01:09,430 --> 00:01:11,440
+We are initializing our scanner class.
+
+20
+00:01:11,460 --> 00:01:17,550
+So then after realizing this, I need to print out message to ask from the user how many days temperature
+
+21
+00:01:17,550 --> 00:01:18,570
+we are going to use.
+
+22
+00:01:18,720 --> 00:01:23,910
+So in this case, I need to talk message to the council so we know that in Java to print out message
+
+23
+00:01:23,910 --> 00:01:25,940
+to the council, we are using print method.
+
+24
+00:01:26,160 --> 00:01:29,830
+So I'm going to call system, not out of print.
+
+25
+00:01:30,030 --> 00:01:35,750
+So inside print statement, I'm going to ask how many days temperature.
+
+26
+00:01:36,030 --> 00:01:39,390
+Then after doing so, I'm going to get the number of days.
+
+27
+00:01:39,420 --> 00:01:41,330
+So a story in an integer variable.
+
+28
+00:01:41,340 --> 00:01:48,270
+So I'm going to create integer variable numbers so it will get input from the console.
+
+29
+00:01:48,280 --> 00:01:51,170
+So to get input from the console, I'm going to put console.
+
+30
+00:01:52,080 --> 00:01:56,260
+So this is kind of a class over here console the next end.
+
+31
+00:01:56,460 --> 00:01:58,650
+So in this case, it's going to be integer number.
+
+32
+00:01:58,660 --> 00:02:00,850
+So that's why I'm putting it over here.
+
+33
+00:02:01,260 --> 00:02:07,260
+So after getting them, I need to calculate the some of them and then using a number of days, we are
+
+34
+00:02:07,260 --> 00:02:10,220
+going to calculate the average of these days.
+
+35
+00:02:10,220 --> 00:02:15,060
+So we know that to calculate average, we need to take some of all these temperature and divide it by
+
+36
+00:02:15,060 --> 00:02:15,690
+number of days.
+
+37
+00:02:16,170 --> 00:02:20,810
+So in this case, I'm going to create another variable for some and initially it will be set to zero.
+
+38
+00:02:21,330 --> 00:02:27,410
+Then I'm going to loop through one until the number of days and get these temperature from the console.
+
+39
+00:02:27,570 --> 00:02:29,940
+So to do so, I'm going to write love like this.
+
+40
+00:02:29,940 --> 00:02:33,300
+So for print I equal one.
+
+41
+00:02:33,630 --> 00:02:34,890
+So it will continue.
+
+42
+00:02:35,100 --> 00:02:41,130
+I was an equal to this, so we need to get all the temperature.
+
+43
+00:02:41,640 --> 00:02:43,920
+Then it will be increased by one.
+
+44
+00:02:44,580 --> 00:02:49,200
+So inside this loop, I'm going to print out to the console asking the day's temperatures.
+
+45
+00:02:49,530 --> 00:02:56,640
+So I'll just copy this code from here and put it inside this room so I will change the message inside
+
+46
+00:02:56,640 --> 00:02:57,070
+this one.
+
+47
+00:02:57,090 --> 00:03:04,800
+So as you remember, the first thing was they saw here, which is temperature is going to be a high
+
+48
+00:03:05,100 --> 00:03:06,560
+class item.
+
+49
+00:03:06,750 --> 00:03:13,530
+Then one more time they are going to cocounsel next it to get the integer variable from the console
+
+50
+00:03:13,530 --> 00:03:15,760
+and added to the somebody below here.
+
+51
+00:03:15,780 --> 00:03:20,120
+So next variable will be comes out next.
+
+52
+00:03:20,970 --> 00:03:24,490
+And then we are going to add it to some some class will be next.
+
+53
+00:03:24,870 --> 00:03:26,400
+So it is called over here.
+
+54
+00:03:26,520 --> 00:03:31,820
+We are getting the day's temperature from the console and adding them to the sun variable or here.
+
+55
+00:03:32,190 --> 00:03:35,190
+So it depends on the number of days we have inserted over here.
+
+56
+00:03:35,400 --> 00:03:40,740
+So if you have a certain number of days, for example, two is going to ask two days temperature over
+
+57
+00:03:40,740 --> 00:03:41,060
+here.
+
+58
+00:03:41,280 --> 00:03:44,830
+So we are going to add it to the sun variable over here.
+
+59
+00:03:45,270 --> 00:03:48,750
+Now, after adding it, we need to calculate the average temperature.
+
+60
+00:03:48,750 --> 00:03:51,260
+So average temperature will be double data types.
+
+61
+00:03:51,270 --> 00:03:55,530
+So I'm going to create the average variable and calculate the average temperature.
+
+62
+00:03:55,620 --> 00:04:01,340
+So to calculate average temperature, we are going to take some divided by number of days.
+
+63
+00:04:02,400 --> 00:04:06,800
+Then after calculating this, we are going to print out to the council average temperature.
+
+64
+00:04:06,810 --> 00:04:08,130
+So it's going to be like this.
+
+65
+00:04:08,550 --> 00:04:11,640
+So here you need it to be double.
+
+66
+00:04:12,390 --> 00:04:14,900
+So here I am going to print out to the council.
+
+67
+00:04:15,180 --> 00:04:17,460
+I just need to put one space to the council.
+
+68
+00:04:17,460 --> 00:04:20,130
+So that's why I put Winterland first.
+
+69
+00:04:20,130 --> 00:04:23,150
+Then I'm going to print out to the council this one.
+
+70
+00:04:23,520 --> 00:04:25,580
+So print one.
+
+71
+00:04:25,830 --> 00:04:30,880
+It's going to be averaged ten plus average.
+
+72
+00:04:31,200 --> 00:04:34,730
+Now it is we have concluded a calculation of average temperature.
+
+73
+00:04:34,740 --> 00:04:40,250
+So if you run our code, you will see that the first thing that it does, it ask a number of days temperature.
+
+74
+00:04:40,260 --> 00:04:45,950
+So this line of code is executed over here and it comes over here to wait for the next line of code.
+
+75
+00:04:45,960 --> 00:04:49,350
+So we need to input number of days, for example, for simplicity.
+
+76
+00:04:49,350 --> 00:04:51,510
+If I put two over here and hit enter.
+
+77
+00:04:51,690 --> 00:04:57,210
+So you see that it continues to the inside of this loop over here in which it's asking, did they want
+
+78
+00:04:57,210 --> 00:04:58,010
+high temperature?
+
+79
+00:04:58,020 --> 00:04:59,910
+So if I put over here 10.
+
+80
+00:05:00,100 --> 00:05:06,180
+Hit enter, it's looping again, this loop over here and asking for the next day's temperatures for
+
+81
+00:05:06,430 --> 00:05:07,740
+next day's temperature.
+
+82
+00:05:07,770 --> 00:05:12,540
+I'm going to put 20 and hit enter is going to print out to the console.
+
+83
+00:05:12,540 --> 00:05:14,100
+Average temperature is 15.
+
+84
+00:05:14,430 --> 00:05:19,080
+Now, everything works over here smoothly and we have not used our data structure.
+
+85
+00:05:19,380 --> 00:05:24,170
+But the question over here is, how do you count how many days were above the average?
+
+86
+00:05:24,480 --> 00:05:29,430
+So we could try to incorporate it inside this loop over here, but it won't work.
+
+87
+00:05:29,640 --> 00:05:35,490
+The problem is you cannot figure out the average until you have gone through all of the data.
+
+88
+00:05:35,880 --> 00:05:42,090
+This means that you need to make a second pass through the data to figure out how many days were average
+
+89
+00:05:42,090 --> 00:05:42,700
+temperatures.
+
+90
+00:05:42,720 --> 00:05:46,430
+So after getting all these temperature, we are calculating the average temperature.
+
+91
+00:05:46,650 --> 00:05:52,830
+Then one more time we need to loop through these days of temperature and find out which these temperature
+
+92
+00:05:52,830 --> 00:05:55,820
+is above the average temperature now inside this loop.
+
+93
+00:05:55,830 --> 00:05:59,220
+We cannot do it because we have to look through all these temperature.
+
+94
+00:05:59,220 --> 00:06:01,300
+Then we can calculate the average temperature.
+
+95
+00:06:01,590 --> 00:06:09,270
+So this means that we cannot do it using of class because a scanner class has no reset option that allows
+
+96
+00:06:09,270 --> 00:06:10,720
+you to see the data.
+
+97
+00:06:10,860 --> 00:06:16,940
+Second time you would have to prompt the user, enter temperature a second time so we can use kind of
+
+98
+00:06:16,950 --> 00:06:20,490
+class to prompt the user to enter the temperature a second time.
+
+99
+00:06:20,790 --> 00:06:26,820
+But this will be very silly because in professional programs we can only ask data from a user one time
+
+100
+00:06:26,820 --> 00:06:28,630
+and use it several times in our code.
+
+101
+00:06:28,890 --> 00:06:34,920
+So that's why we cannot ask using kind of a second time, because by mistake they can enter a different
+
+102
+00:06:34,920 --> 00:06:35,460
+data.
+
+103
+00:06:35,460 --> 00:06:40,120
+And actually no one wants to enter same information twice to the program.
+
+104
+00:06:40,560 --> 00:06:42,850
+So how can we solve this problem?
+
+105
+00:06:42,990 --> 00:06:47,670
+Fortunately, we can solve this problem with the array as the user enters the number.
+
+106
+00:06:48,180 --> 00:06:52,690
+We can compute to come to some and we can save this data in our area.
+
+107
+00:06:53,160 --> 00:07:00,210
+So then after saving that, we can make second pass through the array in which we have saved all this
+
+108
+00:07:00,210 --> 00:07:02,550
+temperature and find out the average temperature.
+
+109
+00:07:02,880 --> 00:07:07,530
+Now, in the next lecture, we are going to implement this logic in our program.

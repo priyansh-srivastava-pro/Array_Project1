@@ -1,0 +1,163 @@
+1
+00:00:00,210 --> 00:00:05,940
+Now, in this section, we are going to use our data structure in real life project, so I'll show you
+
+2
+00:00:05,940 --> 00:00:12,660
+how to implement our data structure in real life project and how it helps us to make the things possible
+
+3
+00:00:12,840 --> 00:00:14,720
+that were not possible without error.
+
+4
+00:00:14,970 --> 00:00:21,090
+So in this project, we are going to take the daily temperature from the user as an input and then we
+
+5
+00:00:21,090 --> 00:00:27,870
+are going to calculate the average of these temperature and then we will find out how many days is above
+
+6
+00:00:27,870 --> 00:00:29,040
+the average temperature.
+
+7
+00:00:29,370 --> 00:00:31,290
+Now our project will look like this.
+
+8
+00:00:31,770 --> 00:00:36,680
+So here, as I mentioned, we are going to find a number of days above the average temperature.
+
+9
+00:00:36,990 --> 00:00:42,240
+So to find the number of days above the average temperature, we need to find out the average temperature.
+
+10
+00:00:42,480 --> 00:00:47,580
+Then we need to check that reached these temperature is above the average temperature.
+
+11
+00:00:48,480 --> 00:00:51,490
+Now, when we run, our program is going to look like this.
+
+12
+00:00:51,540 --> 00:00:57,480
+First, it will ask how many days temperature we are going to input, because initial step is we need
+
+13
+00:00:57,480 --> 00:01:00,780
+to identify how many days temperature we are going to measure.
+
+14
+00:01:01,020 --> 00:01:07,500
+So, for example, for simplicity, if I put two over here and hit Enter is going to prompt me another
+
+15
+00:01:07,500 --> 00:01:08,540
+input question.
+
+16
+00:01:08,730 --> 00:01:11,710
+So it's going to ask the first high temperature.
+
+17
+00:01:12,030 --> 00:01:15,620
+So for our kids, I'm going to put one for first these temperature.
+
+18
+00:01:15,840 --> 00:01:18,210
+So as you see, we have said here, too.
+
+19
+00:01:18,240 --> 00:01:21,730
+So that's what is going to ask secondees temperature over here.
+
+20
+00:01:22,080 --> 00:01:27,990
+So how many days that we set over here, that number of days, temperatures will be asked from us over
+
+21
+00:01:27,990 --> 00:01:28,290
+here.
+
+22
+00:01:28,650 --> 00:01:35,100
+So for the second day, if I put, for example, two and then hit Enter is going to print out saying
+
+23
+00:01:35,100 --> 00:01:41,320
+that the average temperature is one point five and one, these temperature is above the average temperature.
+
+24
+00:01:41,340 --> 00:01:46,830
+So if you look at this example over here, you see that secondees temperature is above the average temperature
+
+25
+00:01:46,830 --> 00:01:48,840
+because average temperature is one point five.
+
+26
+00:01:49,290 --> 00:01:53,100
+So we are going to implement this project using our data structure.
+
+27
+00:01:53,430 --> 00:01:55,480
+Now, let's see how this is working in practice.
+
+28
+00:01:55,830 --> 00:02:00,310
+So by the end of this section, you will be able to make a program like this.
+
+29
+00:02:00,450 --> 00:02:06,750
+So in this case, if you run our program, you will see that the first thing that it does, it ask how
+
+30
+00:02:06,750 --> 00:02:12,570
+many days temperature in this case, if I put three over here, hit enter, you'll see that it is ask
+
+31
+00:02:12,840 --> 00:02:19,080
+the once high temperature, for example, if I put over here 10 and hit enter, it's going to ask the
+
+32
+00:02:19,800 --> 00:02:21,660
+high temperature for day two.
+
+33
+00:02:21,660 --> 00:02:24,060
+I'm going to put 20, then hit enter.
+
+34
+00:02:24,060 --> 00:02:26,120
+It will ask the three high temperature.
+
+35
+00:02:26,130 --> 00:02:29,530
+So for the three I'm going to put 15 and hit enter.
+
+36
+00:02:29,820 --> 00:02:32,580
+So after finding it you see that it returns.
+
+37
+00:02:32,580 --> 00:02:36,870
+US average temperature is 15 and one day's temperature is above average.
+
+38
+00:02:37,050 --> 00:02:41,100
+So in this case, secondees temperature is 24, which is above average.
+
+39
+00:02:41,130 --> 00:02:42,420
+So it's returning like this.
+
+40
+00:02:42,570 --> 00:02:48,240
+Now, by the end of this section, you will be able to make a project like this using our data structure.
+
+41
+00:02:48,720 --> 00:02:50,850
+So let's continue to implement our project.
